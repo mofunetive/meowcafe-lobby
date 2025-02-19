@@ -24,6 +24,9 @@ func _on_next_transitions() -> void:
 
 	if GameInputEvent.is_movement_input():
 		transition.emit("Walk")
+	
+	if !GameInputEvent.is_movement_input():
+		transition.emit("Idle")
 
 func _on_enter() -> void:
 	pass
