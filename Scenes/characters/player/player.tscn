@@ -204,8 +204,3 @@ animated_sprite_2d = NodePath("../../AnimatedSprite2D")
 script = ExtResource("4_mgth6")
 player = NodePath("../..")
 animated_sprite_2d = NodePath("../../AnimatedSprite2D")
-
-[node name="Run" type="Node" parent="StateMachine" node_paths=PackedStringArray("player", "animated_sprite_2d")]
-script = ExtResource("6_agli3")
-player = NodePath("../..")
-animated_sprite_2d = NodePath("../../AnimatedSprite2D")
