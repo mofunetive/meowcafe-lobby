@@ -4,8 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://ivra3dtqnrwd" path="res://Assets/game/Characters/basic_charakter_spritesheet.png" id="2_ltv02"]
 [ext_resource type="FontFile" uid="uid://clkgt4tio0024" path="res://Assets/fonts/MOON Night DEMO.otf" id="3_dife3"]
 [ext_resource type="Script" path="res://script/state_machine/node_state_machine.gd" id="4_whcdb"]
-[ext_resource type="Script" path="res://Scenes/characters/player/idle_state.gd" id="5_ucyrx"]
-[ext_resource type="Script" path="res://Scenes/characters/player/walk_state.gd" id="6_1tm7s"]
+[ext_resource type="Script" path="res://Scenes/characters/player/state/idle.gd" id="5_ucyrx"]
+[ext_resource type="Script" path="res://Scenes/characters/player/state/walk.gd" id="6_1tm7s"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_f2eec"]
 atlas = ExtResource("2_ltv02")
