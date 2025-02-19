@@ -1,10 +1,11 @@
-[gd_scene load_steps=24 format=3 uid="uid://rtr5urednxcx"]
+[gd_scene load_steps=25 format=3 uid="uid://rtr5urednxcx"]
 
 [ext_resource type="Texture2D" uid="uid://ivra3dtqnrwd" path="res://Assets/game/Characters/basic_charakter_spritesheet.png" id="1_hebg0"]
 [ext_resource type="Script" path="res://Scenes/characters/player/player.gd" id="1_obhle"]
 [ext_resource type="Script" path="res://script/state_machine/node_state_machine.gd" id="2_6o2as"]
-[ext_resource type="Script" path="res://Scenes/characters/player/idle_state.gd" id="3_6uh23"]
-[ext_resource type="Script" path="res://Scenes/characters/player/walk_state.gd" id="4_mgth6"]
+[ext_resource type="Script" path="res://Scenes/characters/player/state/idle.gd" id="3_6uh23"]
+[ext_resource type="Script" path="res://Scenes/characters/player/state/walk.gd" id="4_mgth6"]
+[ext_resource type="Script" path="res://Scenes/characters/player/state/run.gd" id="6_agli3"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_f2eec"]
 atlas = ExtResource("1_hebg0")
@@ -188,5 +189,10 @@ animated_sprite_2d = NodePath("../../AnimatedSprite2D")
 
 [node name="Walk" type="Node" parent="StateMachine" node_paths=PackedStringArray("player", "animated_sprite_2d")]
 script = ExtResource("4_mgth6")
+player = NodePath("../..")
+animated_sprite_2d = NodePath("../../AnimatedSprite2D")
+
+[node name="Run" type="Node" parent="StateMachine" node_paths=PackedStringArray("player", "animated_sprite_2d")]
+script = ExtResource("6_agli3")
 player = NodePath("../..")
 animated_sprite_2d = NodePath("../../AnimatedSprite2D")

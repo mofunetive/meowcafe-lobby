@@ -1,4 +1,3 @@
-
 extends NodeState
 
 @export var player: Player
