@@ -1,11 +1,12 @@
-[gd_scene load_steps=26 format=3 uid="uid://rtr5urednxcx"]
+[gd_scene load_steps=27 format=3 uid="uid://rtr5urednxcx"]
 
 [ext_resource type="Texture2D" uid="uid://ivra3dtqnrwd" path="res://Assets/game/Characters/basic_charakter_spritesheet.png" id="1_hebg0"]
-[ext_resource type="Script" path="res://Scenes/characters/player/player.gd" id="1_obhle"]
-[ext_resource type="Script" path="res://script/state_machine/node_state_machine.gd" id="2_6o2as"]
-[ext_resource type="Script" path="res://Scenes/characters/player/idle_state.gd" id="3_6uh23"]
+[ext_resource type="Script" path="res://Scenes/Characters/Player/player.gd" id="1_obhle"]
+[ext_resource type="Script" path="res://Script/State Machine/node_state_machine.gd" id="2_6o2as"]
+[ext_resource type="Script" path="res://Scenes/Characters/Player/State/idle.gd" id="3_6uh23"]
 [ext_resource type="FontFile" uid="uid://clkgt4tio0024" path="res://Assets/fonts/MOON Night DEMO.otf" id="3_one54"]
-[ext_resource type="Script" path="res://Scenes/characters/player/walk_state.gd" id="4_mgth6"]
+[ext_resource type="Script" path="res://Scenes/Characters/Player/State/walk.gd" id="4_mgth6"]
+[ext_resource type="Script" path="res://Scenes/Characters/Player/State/run.gd" id="7_ugacc"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_f2eec"]
 atlas = ExtResource("1_hebg0")
@@ -191,21 +192,21 @@ horizontal_alignment = 1
 position = Vector2(0, -5)
 shape = SubResource("CircleShape2D_yaep1")
 
-[node name="StateMachine" type="Node" parent="." node_paths=PackedStringArray("initial_node_state")]
+[node name="State Machine" type="Node" parent="." node_paths=PackedStringArray("initial_node_state")]
 script = ExtResource("2_6o2as")
 initial_node_state = NodePath("Idle")
 
-[node name="Idle" type="Node" parent="StateMachine" node_paths=PackedStringArray("player", "animated_sprite_2d")]
+[node name="Idle" type="Node" parent="State Machine" node_paths=PackedStringArray("player", "animated_sprite_2d")]
 script = ExtResource("3_6uh23")
 player = NodePath("../..")
 animated_sprite_2d = NodePath("../../AnimatedSprite2D")
 
-[node name="Walk" type="Node" parent="StateMachine" node_paths=PackedStringArray("player", "animated_sprite_2d")]
+[node name="Walk" type="Node" parent="State Machine" node_paths=PackedStringArray("player", "animated_sprite_2d")]
 script = ExtResource("4_mgth6")
 player = NodePath("../..")
 animated_sprite_2d = NodePath("../../AnimatedSprite2D")
 
-[node name="Run" type="Node" parent="StateMachine" node_paths=PackedStringArray("player", "animated_sprite_2d")]
-script = ExtResource("6_agli3")
+[node name="Run" type="Node" parent="State Machine" node_paths=PackedStringArray("player", "animated_sprite_2d")]
+script = ExtResource("7_ugacc")
 player = NodePath("../..")
 animated_sprite_2d = NodePath("../../AnimatedSprite2D")

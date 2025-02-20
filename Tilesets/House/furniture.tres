@@ -1,40 +1,10 @@
-[gd_resource type="TileSet" load_steps=5 format=3 uid="uid://bfxewhibywbhk"]
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://coy33db80ryt2"]
 
-[ext_resource type="Texture2D" uid="uid://d0gvjuujq1j1s" path="res://Assets/game/Tilesets/wooden_house_walls_tilset.png" id="1_aoujt"]
-[ext_resource type="Texture2D" uid="uid://dniec1tvxspsm" path="res://Assets/game/Objects/basic_furniture.png" id="2_vohwv"]
-
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_27ppb"]
-texture = ExtResource("1_aoujt")
-1:1/0 = 0
-0:0/0 = 0
-0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(3, -8, 8, -8, 8, 8, 3, 8)
-1:0/0 = 0
-1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-2:0/0 = 0
-2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, -3, -8, -3, 8, -8, 8)
-2:1/0 = 0
-2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, -3, -8, -3, 8, -8, 8)
-2:2/0 = 0
-2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, -3, -8, -3, 8, -8, 8)
-1:2/0 = 0
-1:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-0:2/0 = 0
-0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(3, -8, 8, -8, 8, 8, 3, 8)
-0:1/0 = 0
-0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(3, -8, 8, -8, 8, 8, 3, 8)
-3:0/0 = 0
-3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-4:0/0 = 0
-4:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-4:1/0 = 0
-4:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-3:1/0 = 0
-3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
-3:2/0 = 0
-3:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+[ext_resource type="Texture2D" uid="uid://dniec1tvxspsm" path="res://Assets/game/Objects/basic_furniture.png" id="1_wlnq8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xpa4f"]
-texture = ExtResource("2_vohwv")
+resource_name = "Furniture"
+texture = ExtResource("1_wlnq8")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -97,5 +67,4 @@ texture = ExtResource("2_vohwv")
 
 [resource]
 physics_layer_0/collision_layer = 1
-sources/0 = SubResource("TileSetAtlasSource_27ppb")
 sources/1 = SubResource("TileSetAtlasSource_xpa4f")

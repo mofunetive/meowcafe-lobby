@@ -12,10 +12,11 @@ var delay_counter = 0
 var delay_time = 5
 
 @onready var _client: WebSocketClient = $WebSocketClient
-@export var player_instance: PackedScene
 @onready var main_player = $Player
 
-var last_position = Vector2()  # ติดตามตำแหน่งสุดท้าย
+@export var player_instance: PackedScene
+
+var last_position = Vector2()
 
 func _connect_to_game():
 	var error = _client.connect_to_websocket(websocket_url)

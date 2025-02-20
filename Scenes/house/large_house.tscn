@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=4 uid="uid://b5ixjdlgf3bxq"]
 
-[ext_resource type="TileSet" uid="uid://bfxewhibywbhk" path="res://Tilesets/house_tile_set.tres" id="1_nlhu0"]
+[ext_resource type="TileSet" uid="uid://bfxewhibywbhk" path="res://Tilesets/House/basic.tres" id="1_nlhu0"]
 
 [node name="LargeHouse" type="Node2D"]
 
