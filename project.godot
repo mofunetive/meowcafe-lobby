@@ -69,6 +69,7 @@ run={
 [layer_names]
 
 2d_physics/layer_1="Ground"
+2d_physics/layer_2="Barrier"
 
 [rendering]
 

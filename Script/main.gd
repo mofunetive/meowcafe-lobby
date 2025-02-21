@@ -11,8 +11,8 @@ var isConnect = false
 var delay_counter = 0
 var delay_time = 5
 
-@onready var _client: WebSocketClient = $WebSocketClient
-@onready var main_player = $Player
+@onready var _client: WebSocketClient = $Core/WebSocketClient
+@onready var main_player = $Core/Player
 
 @export var player_instance: PackedScene
 
