@@ -1,9 +1,9 @@
 [gd_resource type="TileSet" load_steps=9 format=3 uid="uid://cjm01m74hp3rx"]
 
-[ext_resource type="Texture2D" uid="uid://ba2ffvx04wx2y" path="res://Assets/game/Tilesets/water.png" id="1_rs60a"]
-[ext_resource type="Texture2D" uid="uid://blu2brmu1c5bj" path="res://Assets/game/Tilesets/grass.png" id="2_iq28e"]
-[ext_resource type="Texture2D" uid="uid://cy4romi8ixko6" path="res://Assets/game/Tilesets/tilled_dirt_wide.png" id="3_xmwo6"]
-[ext_resource type="Texture2D" uid="uid://dnhdtku235hqc" path="res://Assets/game/Objects/basic_grass_biom_things.png" id="4_aigda"]
+[ext_resource type="Texture2D" uid="uid://ba2ffvx04wx2y" path="res://Assets/Game/Tilesets/water.png" id="1_rs60a"]
+[ext_resource type="Texture2D" uid="uid://blu2brmu1c5bj" path="res://Assets/Game/Tilesets/grass.png" id="2_iq28e"]
+[ext_resource type="Texture2D" uid="uid://cy4romi8ixko6" path="res://Assets/Game/Tilesets/tilled_dirt_wide.png" id="3_xmwo6"]
+[ext_resource type="Texture2D" uid="uid://dnhdtku235hqc" path="res://Assets/Game/Objects/basic_grass_biom_things.png" id="4_aigda"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qnf0n"]
 resource_name = "Water"

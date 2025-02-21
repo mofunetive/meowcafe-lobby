@@ -1,6 +1,6 @@
 [gd_resource type="TileSet" load_steps=3 format=3 uid="uid://coy33db80ryt2"]
 
-[ext_resource type="Texture2D" uid="uid://dniec1tvxspsm" path="res://Assets/game/Objects/basic_furniture.png" id="1_wlnq8"]
+[ext_resource type="Texture2D" uid="uid://dniec1tvxspsm" path="res://Assets/Game/Objects/basic_furniture.png" id="1_wlnq8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xpa4f"]
 resource_name = "Furniture"

@@ -1,6 +1,6 @@
 [gd_resource type="TileSet" load_steps=3 format=3 uid="uid://bfxewhibywbhk"]
 
-[ext_resource type="Texture2D" uid="uid://d0gvjuujq1j1s" path="res://Assets/game/Tilesets/wooden_house_walls_tilset.png" id="1_xlv45"]
+[ext_resource type="Texture2D" uid="uid://d0gvjuujq1j1s" path="res://Assets/Game/Tilesets/wooden_house_walls_tilset.png" id="1_xlv45"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_27ppb"]
 resource_name = "Walls"

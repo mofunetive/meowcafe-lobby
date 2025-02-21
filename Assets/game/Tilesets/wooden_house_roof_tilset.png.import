@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ba4sq5vvr8sv3"
-path="res://.godot/imported/wooden_house_roof_tilset.png-d3d6eb179a089f882d1106c4f3a9698a.ctex"
+path="res://.godot/imported/wooden_house_roof_tilset.png-28a7b778c197b375d29b8bf89711a2a2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/game/Tilesets/wooden_house_roof_tilset.png"
-dest_files=["res://.godot/imported/wooden_house_roof_tilset.png-d3d6eb179a089f882d1106c4f3a9698a.ctex"]
+source_file="res://Assets/Game/Tilesets/wooden_house_roof_tilset.png"
+dest_files=["res://.godot/imported/wooden_house_roof_tilset.png-28a7b778c197b375d29b8bf89711a2a2.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0gvjuujq1j1s"
-path="res://.godot/imported/wooden_house_walls_tilset.png-d34d57905b016637691b219406adf509.ctex"
+path="res://.godot/imported/wooden_house_walls_tilset.png-fa2bfb8562f071b9f8189946c4ce98bf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/game/Tilesets/wooden_house_walls_tilset.png"
-dest_files=["res://.godot/imported/wooden_house_walls_tilset.png-d34d57905b016637691b219406adf509.ctex"]
+source_file="res://Assets/Game/Tilesets/wooden_house_walls_tilset.png"
+dest_files=["res://.godot/imported/wooden_house_walls_tilset.png-fa2bfb8562f071b9f8189946c4ce98bf.ctex"]
 
 [params]
 

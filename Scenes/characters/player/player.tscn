@@ -1,10 +1,10 @@
 [gd_scene load_steps=27 format=3 uid="uid://rtr5urednxcx"]
 
-[ext_resource type="Texture2D" uid="uid://ivra3dtqnrwd" path="res://Assets/game/Characters/basic_charakter_spritesheet.png" id="1_hebg0"]
+[ext_resource type="Texture2D" uid="uid://ivra3dtqnrwd" path="res://Assets/Game/Characters/basic_charakter_spritesheet.png" id="1_hebg0"]
 [ext_resource type="Script" path="res://Scenes/Characters/Player/player.gd" id="1_obhle"]
 [ext_resource type="Script" path="res://Script/State Machine/node_state_machine.gd" id="2_6o2as"]
 [ext_resource type="Script" path="res://Scenes/Characters/Player/State/idle.gd" id="3_6uh23"]
-[ext_resource type="FontFile" uid="uid://clkgt4tio0024" path="res://Assets/fonts/MOON Night DEMO.otf" id="3_one54"]
+[ext_resource type="FontFile" uid="uid://clkgt4tio0024" path="res://Assets/Fonts/MOON Night DEMO.otf" id="3_one54"]
 [ext_resource type="Script" path="res://Scenes/Characters/Player/State/walk.gd" id="4_mgth6"]
 [ext_resource type="Script" path="res://Scenes/Characters/Player/State/run.gd" id="7_ugacc"]
 

@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://clkgt4tio0024"
-path="res://.godot/imported/MOON Night DEMO.otf-f9c54869f1b823da1e7c1e8b075dc511.fontdata"
+path="res://.godot/imported/MOON Night DEMO.otf-80bab333daa78524c64d804ed4b6d1cb.fontdata"
 
 [deps]
 
-source_file="res://Assets/fonts/MOON Night DEMO.otf"
-dest_files=["res://.godot/imported/MOON Night DEMO.otf-f9c54869f1b823da1e7c1e8b075dc511.fontdata"]
+source_file="res://Assets/Fonts/MOON Night DEMO.otf"
+dest_files=["res://.godot/imported/MOON Night DEMO.otf-80bab333daa78524c64d804ed4b6d1cb.fontdata"]
 
 [params]
 
