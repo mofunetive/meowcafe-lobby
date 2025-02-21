@@ -30,7 +30,7 @@ window/stretch/scale_mode="integer"
 folder_colors={
 "res://Assets/": "orange",
 "res://Scenes/": "green",
-"res://Script/": "pink",
+"res://Scripts/": "pink",
 "res://Tilesets/": "yellow"
 }
 

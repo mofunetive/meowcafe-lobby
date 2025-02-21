@@ -1,75 +1,75 @@
 [gd_scene load_steps=27 format=3 uid="uid://cxrfutju0f48i"]
 
-[ext_resource type="Script" path="res://Scenes/Characters/Player/player.gd" id="1_2xtfl"]
-[ext_resource type="Texture2D" uid="uid://ivra3dtqnrwd" path="res://Assets/Game/Characters/basic_charakter_spritesheet.png" id="2_ltv02"]
-[ext_resource type="FontFile" uid="uid://clkgt4tio0024" path="res://Assets/Fonts/MOON Night DEMO.otf" id="3_dife3"]
-[ext_resource type="Script" path="res://Script/State Machine/node_state_machine.gd" id="4_whcdb"]
-[ext_resource type="Script" path="res://Scenes/Characters/Player/State/idle.gd" id="5_ucyrx"]
-[ext_resource type="Script" path="res://Scenes/Characters/Player/State/walk.gd" id="6_1tm7s"]
-[ext_resource type="Script" path="res://Scenes/Characters/Player/State/run.gd" id="7_am7lj"]
+[ext_resource type="Script" path="res://Scenes/Characters/Player/player.gd" id="1_603m8"]
+[ext_resource type="Texture2D" uid="uid://ivra3dtqnrwd" path="res://Assets/Game/Characters/basic_charakter_spritesheet.png" id="2_hf6ll"]
+[ext_resource type="FontFile" uid="uid://clkgt4tio0024" path="res://Assets/Fonts/MOON Night DEMO.otf" id="3_5yqsr"]
+[ext_resource type="Script" path="res://Scripts/State Machine/node_state_machine.gd" id="4_wtm1d"]
+[ext_resource type="Script" path="res://Scenes/Characters/Player/State/idle.gd" id="5_yns86"]
+[ext_resource type="Script" path="res://Scenes/Characters/Player/State/walk.gd" id="6_xfmcr"]
+[ext_resource type="Script" path="res://Scenes/Characters/Player/State/run.gd" id="7_oukn2"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_f2eec"]
-atlas = ExtResource("2_ltv02")
+atlas = ExtResource("2_hf6ll")
 region = Rect2(0, 48, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_r5ida"]
-atlas = ExtResource("2_ltv02")
+atlas = ExtResource("2_hf6ll")
 region = Rect2(48, 48, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_28uy8"]
-atlas = ExtResource("2_ltv02")
+atlas = ExtResource("2_hf6ll")
 region = Rect2(0, 0, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_06oob"]
-atlas = ExtResource("2_ltv02")
+atlas = ExtResource("2_hf6ll")
 region = Rect2(48, 0, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_u7ty3"]
-atlas = ExtResource("2_ltv02")
+atlas = ExtResource("2_hf6ll")
 region = Rect2(0, 96, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_oo14g"]
-atlas = ExtResource("2_ltv02")
+atlas = ExtResource("2_hf6ll")
 region = Rect2(48, 96, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g44uo"]
-atlas = ExtResource("2_ltv02")
+atlas = ExtResource("2_hf6ll")
 region = Rect2(0, 144, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_e27nq"]
-atlas = ExtResource("2_ltv02")
+atlas = ExtResource("2_hf6ll")
 region = Rect2(48, 144, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_nk268"]
-atlas = ExtResource("2_ltv02")
+atlas = ExtResource("2_hf6ll")
 region = Rect2(96, 48, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_di7sc"]
-atlas = ExtResource("2_ltv02")
+atlas = ExtResource("2_hf6ll")
 region = Rect2(144, 48, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fpbu4"]
-atlas = ExtResource("2_ltv02")
+atlas = ExtResource("2_hf6ll")
 region = Rect2(96, 0, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fbo53"]
-atlas = ExtResource("2_ltv02")
+atlas = ExtResource("2_hf6ll")
 region = Rect2(144, 0, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_gamal"]
-atlas = ExtResource("2_ltv02")
+atlas = ExtResource("2_hf6ll")
 region = Rect2(96, 96, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g7wkg"]
-atlas = ExtResource("2_ltv02")
+atlas = ExtResource("2_hf6ll")
 region = Rect2(144, 96, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_54my8"]
-atlas = ExtResource("2_ltv02")
+atlas = ExtResource("2_hf6ll")
 region = Rect2(96, 144, 48, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_sjva1"]
-atlas = ExtResource("2_ltv02")
+atlas = ExtResource("2_hf6ll")
 region = Rect2(144, 144, 48, 48)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_unayg"]
@@ -164,14 +164,14 @@ animations = [{
 }]
 
 [sub_resource type="LabelSettings" id="LabelSettings_enqqv"]
-font = ExtResource("3_dife3")
+font = ExtResource("3_5yqsr")
 font_size = 18
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_yaep1"]
 radius = 5.09902
 
 [node name="OtherPlayer" type="CharacterBody2D"]
-script = ExtResource("1_2xtfl")
+script = ExtResource("1_603m8")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -8)
@@ -193,20 +193,20 @@ position = Vector2(0, -5)
 shape = SubResource("CircleShape2D_yaep1")
 
 [node name="State Machine" type="Node" parent="." node_paths=PackedStringArray("initial_node_state")]
-script = ExtResource("4_whcdb")
+script = ExtResource("4_wtm1d")
 initial_node_state = NodePath("Idle")
 
 [node name="Idle" type="Node" parent="State Machine" node_paths=PackedStringArray("player", "animated_sprite_2d")]
-script = ExtResource("5_ucyrx")
+script = ExtResource("5_yns86")
 player = NodePath("../..")
 animated_sprite_2d = NodePath("../../AnimatedSprite2D")
 
 [node name="Walk" type="Node" parent="State Machine" node_paths=PackedStringArray("player", "animated_sprite_2d")]
-script = ExtResource("6_1tm7s")
+script = ExtResource("6_xfmcr")
 player = NodePath("../..")
 animated_sprite_2d = NodePath("../../AnimatedSprite2D")
 
 [node name="Run" type="Node" parent="State Machine" node_paths=PackedStringArray("player", "animated_sprite_2d")]
-script = ExtResource("7_am7lj")
+script = ExtResource("7_oukn2")
 player = NodePath("../..")
 animated_sprite_2d = NodePath("../../AnimatedSprite2D")

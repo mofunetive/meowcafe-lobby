@@ -4,7 +4,7 @@ var websocket_url = "ws://127.0.0.1:4399"
 var messageToSend = ""
 var player_id = ""
 
-var other_player_node = preload("res://Scenes/characters/player/OtherPlayer.tscn")
+var other_player_node = preload("res://Scenes/Characters/Player/other_player.tscn")
 var other_players = {}
 
 var isConnect = false

@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://ivra3dtqnrwd" path="res://Assets/Game/Characters/basic_charakter_spritesheet.png" id="1_hebg0"]
 [ext_resource type="Script" path="res://Scenes/Characters/Player/player.gd" id="1_obhle"]
-[ext_resource type="Script" path="res://Script/State Machine/node_state_machine.gd" id="2_6o2as"]
+[ext_resource type="Script" path="res://Scripts/State Machine/node_state_machine.gd" id="2_6o2as"]
 [ext_resource type="Script" path="res://Scenes/Characters/Player/State/idle.gd" id="3_6uh23"]
 [ext_resource type="FontFile" uid="uid://clkgt4tio0024" path="res://Assets/Fonts/MOON Night DEMO.otf" id="3_one54"]
 [ext_resource type="Script" path="res://Scenes/Characters/Player/State/walk.gd" id="4_mgth6"]
@@ -167,14 +167,13 @@ animations = [{
 font = ExtResource("3_one54")
 font_size = 18
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_yaep1"]
-radius = 5.09902
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vj2ad"]
+size = Vector2(14, 16)
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_obhle")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(0, -8)
 sprite_frames = SubResource("SpriteFrames_unayg")
 animation = &"idle_front"
 autoplay = "idle_front"
@@ -189,8 +188,7 @@ label_settings = SubResource("LabelSettings_enqqv")
 horizontal_alignment = 1
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -5)
-shape = SubResource("CircleShape2D_yaep1")
+shape = SubResource("RectangleShape2D_vj2ad")
 
 [node name="State Machine" type="Node" parent="." node_paths=PackedStringArray("initial_node_state")]
 script = ExtResource("2_6o2as")
