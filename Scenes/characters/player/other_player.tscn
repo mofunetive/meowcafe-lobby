@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://Scenes/Characters/Player/player.gd" id="1_603m8"]
 [ext_resource type="Texture2D" uid="uid://ivra3dtqnrwd" path="res://Assets/Game/Characters/basic_charakter_spritesheet.png" id="2_hf6ll"]
 [ext_resource type="FontFile" uid="uid://clkgt4tio0024" path="res://Assets/Fonts/MOON Night DEMO.otf" id="3_5yqsr"]
-[ext_resource type="Script" path="res://Scripts/State Machine/node_state_machine.gd" id="4_wtm1d"]
+[ext_resource type="Script" path="res://Script/State Machine/node_state_machine.gd" id="4_wtm1d"]
 [ext_resource type="Script" path="res://Scenes/Characters/Player/State/idle.gd" id="5_yns86"]
 [ext_resource type="Script" path="res://Scenes/Characters/Player/State/walk.gd" id="6_xfmcr"]
 [ext_resource type="Script" path="res://Scenes/Characters/Player/State/run.gd" id="7_oukn2"]

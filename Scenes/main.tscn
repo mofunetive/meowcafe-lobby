@@ -1,9 +1,9 @@
 [gd_scene load_steps=6 format=4 uid="uid://d04itvf0cjdgr"]
 
 [ext_resource type="TileSet" uid="uid://cjm01m74hp3rx" path="res://Tilesets/basic.tres" id="1_5l4qc"]
-[ext_resource type="Script" path="res://Scripts/main.gd" id="1_cs1uq"]
+[ext_resource type="Script" path="res://Script/main.gd" id="1_cs1uq"]
 [ext_resource type="PackedScene" uid="uid://rtr5urednxcx" path="res://Scenes/Characters/Player/player.tscn" id="2_mmptw"]
-[ext_resource type="Script" path="res://Scripts/Online/WebSocketClient.gd" id="4_7xoty"]
+[ext_resource type="Script" path="res://Script/Online/WebSocketClient.gd" id="4_7xoty"]
 [ext_resource type="TileSet" uid="uid://cvwrpbwfsvg4w" path="res://Tilesets/bridge.tres" id="4_f0hea"]
 
 [node name="lobby" type="Control"]
